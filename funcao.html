@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         // function exibeNomeEstudante(nome, nota, semestre){
+            //     alert(nome)
+            // }
+    
+            // const nome = 'Jonas '
+            // exibeNomeEstudante(`${nome}`)
+    
+            // exibeNomeEstudante("Jonas")
+    
+            /*
+                Faça um função que receba um nome e uma nota
+                e exiba a mensagem "O nome do aluno é [nome]. 
+                E sua nota é [nota]"
+            */
+
+
+           
+           // exibeNomeENota()
+           
+           
+           // function formataInfoEstudante(nome, nota) {
+            
+            //     const info = `
+            //     ==============================
+            //     Estudante: ${nome}
+            
+            //     Sua nota: ${nota}
+            //     ==============================
+            //     `
+            
+            //     return info
+            // }
+            
+            // const infoEstudante = formataInfoEstudante('JONAS', 7.6)
+            
+            // alert(infoEstudante)
+            
+            
+            /*
+            Faça uma funçã o que receba 4 notas e retorne
+                a média das notas.
+                */
+               
+               // function calcularMedia(n1, n2, n3, n4){
+            //     return (n1+n2+n3+n4)/4
+            // }
+            
+            
+            // Função Expressão (Anômnima)
+            // const calcularMedia = function (n1, n2, n3, n4) {
+            //         return (n1+n2+n3+n4)/4
+            //     }
+                
+            //     alert(calcularMedia(3, 6, 8, 10))
+                
+                
+                
+                // função anonima (epressão)
+                
+                // function calcularMedia1 (n1, n2, n3, n4){
+                    //     const media = (n1+n2+n3+n4)/4
+
+                    //     return media
+                    
+                    // }
+                    // const resultaMedia = calcularMedia1(10, 5, 7.8, 4)
+         
+                    // alert(resultaMedia)
+                    // alert(calcularMedia1(5, 6, 4.5, 3))
+                
+         
+                    //    const exibeNomeENota = function (nome, nota){
+                    //         alert(`Nome: ${nome} | Nota: ${nota}`)
+                    // }
+
+                    //função Expressão
+
+                    // const calcularMedia2 = function (n1,n2,n3,n4) {
+                    //     return (n1+n2+n3+n4)/4
+                    // }
+
+                    // calcularMedia2(2, 3, 4, 5)
+
+                    // Função Seta(arrow function), (Anonima)
+                
+                    // const calcularMedia3 = (n1, n2, n3, n4) => {
+                    //     return(n1,n2,n3,n4)/4
+
+                    // }
+
+                    // const calcularMedia4 = (n1,n2,n3,n4) => (n1,n2,n3,n4)/4
+
+
+                    // 1.1 Faça uma função expressão chamada 'negativoOuPositivo' que
+                    //  recebe um número como pâramentro e retorna se o numero 
+                    // é positivo ou negativo. Teste a função para os dois casos.
+
+                    const negativoOuPositivo = function (n1) {
+                        if (n1<0) {
+                            return('número negativo') 
+                        } else if(n1 > 0) {
+                            return('numero positivo')
+                        }else {
+                            return ("Zero")
+                        }
+                    }
+
+                    alert (negativoOuPositivo(-5))
+                    alert (negativoOuPositivo(7))
+
+                    // alert (negativoOuPositivo(-1))
+
+                    // 1.2 Faça uma função seta (arrow function) chamada 'parOuImpar'
+                    // que recebe um número como parametro e retorna se o número é par
+                    //  ou impar. teste a função para os dois casos.
+
+                    //  const parOuImpar = (numero) => {
+                    //     if(numero%2 == 0) {
+                    //         return "par"
+                    //     } else if (numero%2 ==1) {
+                    //         return "impar"
+                    //     }
+
+                        // alert(parOuImpar(7)) //Impar
+                        // alert(parOuImpar(6)) //par
+
+                        const parOuImparTernario = (numero) => {
+                           return numero%2 ==0 ? "Par" : 'Impar'
+                        }
+
+                        alert (parOuImparTernario(7))
+                    
+                    
+
+
+
+                    </script>
+</body>
+</html>
